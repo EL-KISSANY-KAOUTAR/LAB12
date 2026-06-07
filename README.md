@@ -14,10 +14,10 @@ Installer Frida côté PC:
 
 <img width="576" height="139" alt="image" src="https://github.com/user-attachments/assets/f28b95c0-4683-4624-996a-b2dc99b7f89b" />
 
+
 Cette capture confirme que Frida est correctement installé sur le poste de travail. La commande `frida --version` affiche la version installée, tandis que le module Python Frida est vérifié à l'aide d'un script Python affichant la version de la bibliothèque.
 
 Installer ADB et vérifier l’appareil:
-
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/1038deeb-9df1-4d66-ae77-a1bad30cbbf8" />
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/327ec34c-6870-42e7-a00d-e468e70ef0e3" />
 
