@@ -19,7 +19,6 @@ Cette capture confirme que Frida est correctement installé sur le poste de trav
 Installer ADB et vérifier l’appareil:
 
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/1038deeb-9df1-4d66-ae77-a1bad30cbbf8" />
-
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/327ec34c-6870-42e7-a00d-e468e70ef0e3" />
 
 Cette étape permet de vérifier la communication entre le poste de travail et l'émulateur Android. La commande `adb devices` affiche les appareils connectés et confirme que l'émulateur est détecté et prêt à être utilisé pour les tests.
