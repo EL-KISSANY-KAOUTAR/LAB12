@@ -1,8 +1,10 @@
 # LAB 12 : Bypass de la Détection de Root Android avec Medusa
 
-Objectif: réaliser, pas à pas (niveau débutant), un bypass de la détection de root Android en utilisant l’outil Medusa (ensemble d’outils/scripts d’instrumentation, généralement basés sur Frida), puis valider que l’application ne « voit » plus le root.
+## Objectif: 
 
-Prérequis simples
+réaliser, pas à pas (niveau débutant), un bypass de la détection de root Android en utilisant l’outil Medusa (ensemble d’outils/scripts d’instrumentation, généralement basés sur Frida), puis valider que l’application ne « voit » plus le root.
+
+## Prérequis simples
 
 <img width="647" height="253" alt="image" src="https://github.com/user-attachments/assets/cae1cca2-0b6c-4459-8c96-135665f5921c" />
 
@@ -10,20 +12,20 @@ Cette capture montre la vérification de l'installation de Python et de pip sur 
 
 ###  Préparer l’environnement Android et Frida
 
-Installer Frida côté PC:
+#### Installer Frida côté PC:
 
 <img width="576" height="139" alt="image" src="https://github.com/user-attachments/assets/f28b95c0-4683-4624-996a-b2dc99b7f89b" />
 
 
 Cette capture confirme que Frida est correctement installé sur le poste de travail. La commande `frida --version` affiche la version installée, tandis que le module Python Frida est vérifié à l'aide d'un script Python affichant la version de la bibliothèque.
 
-Installer ADB et vérifier l’appareil:
+#### Installer ADB et vérifier l’appareil:
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/1038deeb-9df1-4d66-ae77-a1bad30cbbf8" />
 <img width="2173" height="724" alt="image" src="https://github.com/user-attachments/assets/327ec34c-6870-42e7-a00d-e468e70ef0e3" />
 
 Cette étape permet de vérifier la communication entre le poste de travail et l'émulateur Android. La commande `adb devices` affiche les appareils connectés et confirme que l'émulateur est détecté et prêt à être utilisé pour les tests.
 
-### Démarrer Frida Server sur l'appareil
+#### Démarrer Frida Server sur l'appareil
 
 Télécharger depuis les releases Frida la version de **frida-server** correspondant à la version de Frida installée ainsi qu'à l'architecture de l'appareil Android. Après décompression de l'archive, transférer le binaire sur l'appareil :
 
